@@ -2,8 +2,8 @@ lazy_static::lazy_static! {
 pub static ref T: std::collections::HashMap<&'static str, &'static str> =
     [
         ("Status", "状态"),
-        ("Your Desktop", "你的桌面"),
-        ("desk_tip", "你的桌面可以通过下面的 ID 和密码访问。"),
+        ("Your Desktop", "Licardo 专用版 RustDesk"),
+        ("desk_tip", "此版本仅限 Licardo 内部使用，请勿用于其他用途！"),
         ("Password", "密码"),
         ("Ready", "就绪"),
         ("Established", "已建立"),
